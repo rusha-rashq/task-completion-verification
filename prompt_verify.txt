@@ -1,0 +1,21 @@
+You are working in a code repository. Resolve the following issue.
+
+<issue>
+Require a non-empty name for Blueprints
+Things do not work correctly if a Blueprint is given an empty name (e.g. #4944).
+It would be helpful if a `ValueError` was raised when trying to do that.
+</issue>
+
+Before you declare the task complete, verify your work:
+
+1. List every requirement of this issue, including ones that tests may not
+   check, such as documentation, error messages, compatibility with existing
+   behavior, and related configuration or API changes.
+2. For each requirement, cite the specific evidence that it is satisfied
+   (for example: the file and lines you changed, a test you ran and its
+   output, or a documentation update).
+3. If any requirement is unsatisfied or lacks evidence, continue working on
+   it. Only declare the task complete once every requirement has evidence.
+
+When you are finished, state clearly whether the task is complete, and give
+your final requirement-to-evidence list.

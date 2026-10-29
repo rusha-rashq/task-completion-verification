@@ -1,0 +1,6 @@
+# Cloned Flask repos (large, have their own git history); the diffs capture the agent's changes
+baseline/
+verify/
+.venv/
+__pycache__/
+.DS_Store

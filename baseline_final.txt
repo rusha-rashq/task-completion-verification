@@ -1,0 +1,5 @@
+Blueprint now raises ValueError("'name' may not be empty.") when given an empty name. The check is in Blueprint.__init__ in src/flask/blueprints.py, just before the existing check for a dot in the name.
+
+I ran flask.Blueprint('', __name__) and got the expected error. The 59 tests in tests/test_blueprints.py still pass. I didn't add a new test for the empty-name case or a changelog entry.
+
+The task is complete.
